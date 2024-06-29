@@ -17,8 +17,8 @@ contract DegenToken is IERC20{
     event Mint(address to, uint256 value);
 
     constructor(string memory name, string memory symbol) {
-        _name = name;
-        _symbol = symbol;
+        name = "Degen";
+        symbol = "DGN";
         _owner = msg.sender;
     }
 
