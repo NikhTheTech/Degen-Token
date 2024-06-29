@@ -28,7 +28,6 @@ DegenToken is an ERC20 token contract implemented in Solidity. This contract all
   - [Introduction](#introduction)
   - [Prerequisites](#prerequisites)
   - [Why Avalanche and Hardhat?](#why-avalanche-and-hardhat)
-  - [Folder Structure](#folder-structure)
   - [Setup and Configuration](#setup-and-configuration)
   - [Deploying Smart Contracts](#deploying-smart-contracts)
 - [License](#license)
@@ -197,20 +196,6 @@ Avalanche is a next-generation blockchain platform that provides high scalabilit
 
 Hardhat is a powerful development environment for Ethereum smart contracts. While it is primarily designed for Ethereum, it can be configured to work seamlessly with Avalanche. Hardhat offers advanced features like testing, debugging, and deployment automation, making it an ideal choice for Avalanche development.
 
-### Folder Structure
-
-Before we dive into the setup process, let's take a look at the recommended folder structure for your Avalanche project:
-
-```
-├── contracts/            # Contains your smart contracts
-├── scripts/              # Deployment and interaction scripts
-├── test/                 # Test cases for your smart contracts
-├── hardhat.config.js     # Hardhat configuration file
-├── README.md             # Project documentation
-└── ...
-```
-
-This structure helps organize your project and separates the different components of your Avalanche development workflow.
 
 ### Setup and Configuration
 
