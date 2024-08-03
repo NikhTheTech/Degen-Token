@@ -72,7 +72,7 @@ contract DegenToken is IERC20 {
         return true;
     }
 
-    function getPurchases(address account) public view returns (string[] memory) {
+    function purchases(address account) public view returns (string[] memory) {
         return _purchases[account];
     }
 
@@ -94,7 +94,7 @@ contract DegenToken is IERC20 {
         items.push(Item(itemName, itemPrice));
     }
 
-   function Inventory() public view returns (string memory) {
+   function inventory() public view returns (string memory) {
     string memory itemList = "";
     for (uint256 i = 0; i < items.length; i++) {
         string memory indexString = uintToString(i );
